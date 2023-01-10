@@ -1,25 +1,27 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 import ComingSoonIllustration from '../components/ComingSoonIllustration.astro';
 ---
 
 <Layout title="Rez. | Web Developer">
   <main class="py-32">
-    <p class="text-lg font-extralight text-[#1A1A1A]">Hey, I'm</p>
+    <p class="text-lg font-extralight text-[#1A1A1A] dark:text-[#FFFFFF]">Hey, I'm</p>
     <p
       class="mt-5 bg-[linear-gradient(89.81deg,#9845E8_-1.72%,#33D2FF_54.05%,#DD5789_99.78%)] bg-clip-text text-8xl font-medium text-transparent"
     >
       Rezuan Kassim
     </p>
-    <p class="mt-6 text-lg font-extralight">
+    <p class="mt-6 text-lg font-extralight dark:text-[#F0F0F0]">
       Based in Sabah, Malaysia. I enjoy creating things that live on the internet, whether that be
       websites, applications, or anything in between. I've manage to gain a decent amount of
       experience and valuable knowledge from all different kinds of fields throughout my
       projects/work.
     </p>
 
-    <a href="#contact" class="mt-10 flex items-center gap-x-3 text-2xl font-light">
+    <a
+      href="#contact"
+      class="mt-10 flex items-center gap-x-3 text-2xl font-light text-[#1A1A1A] dark:text-white"
+    >
       <span>Say hi</span>
 
       <svg
@@ -54,26 +56,26 @@ import ComingSoonIllustration from '../components/ComingSoonIllustration.astro';
     </a>
 
     <section id="projects" class="mt-32 scroll-m-8">
-      <h2 class="text-lg font-light">FEATURED PROJECTS</h2>
+      <h2 class="text-lg font-light text-[#1A1A1A] dark:text-white">FEATURED PROJECTS</h2>
 
       <div class="mt-14">
         <div class="flex flex-col items-center justify-center">
           <ComingSoonIllustration />
 
-          <p class="text-xl font-light">Coming Soon</p>
+          <p class="text-xl font-light text-[#1A1A1A] dark:text-white">Coming Soon</p>
         </div>
       </div>
     </section>
 
-    <div class="my-28 h-[0.4px] w-full bg-[#1A1A1A]"></div>
+    <div class="my-28 h-[0.4px] w-full bg-[#1A1A1A] dark:bg-[#C6C6C6]"></div>
 
     <section id="contact" class="flex gap-x-32">
-      <p class="text-lg font-light">CONTACT</p>
+      <p class="text-lg font-light text-[#1A1A1A] dark:text-white">CONTACT</p>
 
       <div class="flex items-center gap-x-3">
         <a
           href="mailto: rezuankassim@hotmail.com"
-          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A]"
+          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A] dark:text-[#C4C4C4]"
         >
           <svg
             width="24px"
@@ -109,7 +111,7 @@ import ComingSoonIllustration from '../components/ComingSoonIllustration.astro';
 
         <a
           href="https://www.linkedin.com/in/rezuan-kassim/"
-          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A]"
+          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A] dark:text-[#C4C4C4]"
           target="_blank"
         >
           <svg
@@ -131,7 +133,7 @@ import ComingSoonIllustration from '../components/ComingSoonIllustration.astro';
 
         <a
           href="https://github.com/rezuankassim"
-          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A]"
+          class="flex w-56 items-center justify-center space-x-2 rounded border border-[#C6C6C6] py-3 text-[#1A1A1A] dark:text-[#C4C4C4]"
           target="_blank"
         >
           <svg
