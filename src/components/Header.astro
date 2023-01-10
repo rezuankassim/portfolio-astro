@@ -1,0 +1,27 @@
+---
+import ThemeSwitcher from './ThemeSwitcher';
+---
+
+<header class="py-10">
+  <nav class="flex items-center justify-between text-[#1A1A1A] dark:text-white">
+    <span class="text-lg font-extralight">rez.</span>
+
+    <ul class="flex items-center gap-x-8">
+      <li>
+        <a href="#projects" class="text-lg font-extralight">Projects</a>
+      </li>
+
+      <li>
+        <a href="/resume" class="text-lg font-extralight">Resume</a>
+      </li>
+
+      <li>
+        <a href="#contact" class="text-lg font-extralight">Contact</a>
+      </li>
+
+      <li>
+        <ThemeSwitcher client:load />
+      </li>
+    </ul>
+  </nav>
+</header>
