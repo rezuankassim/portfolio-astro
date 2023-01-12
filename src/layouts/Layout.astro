@@ -28,3 +28,13 @@ const {title, header = true} = Astro.props;
     <slot />
   </body>
 </html>
+
+<script>
+  const theme = localStorage.getItem('theme') || 'light';
+
+  if (theme === 'dark') {
+    document.querySelector('html')?.classList.add('dark');
+  } else {
+    document.querySelector('html')?.classList.remove('dark');
+  }
+</script>
